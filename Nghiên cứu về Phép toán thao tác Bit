@@ -1,0 +1,14 @@
+Em chào cô,
+Em tìm được tài liệu  về phép toán thao tác bit trong link trang 562: 
+https://books.google.com.vn/books?id=1DaDAwAAQBAJ&printsec=frontcover&dq=bit+shift+left+%3C%3C+java+oracle&hl=en&sa=X&ved=0ahUKEwje9uvd-oPOAhUGppQKHdMGApgQ6AEILjAD#v=snippet&q=shift%20left%20bit&f=false
+
+Trong đường dẫn này, ở phần Dịch chuyển trong java có viết: 
+Nếu như kiểu giá trị cao cấp của toán hạng bên trái là int, thì chỉ có năm bit thấp nhất
+theo thứ tự của toán hạng bên phải được sử dụng như là khoảng cách dịch chuyển. Điều này 
+giống như là toán hạng bên phải được sử dụng cho một toán tử luận lý thao tác bit AND & 
+với giá trị che đậy 0x1f (0b11111). Khoảng cách dịch chuyển thực ra luôn nằm trong khoảng từ 0 tới 31.
+Nếu như kiểu giá trị cao cấp của toán hạng bên trái là long, thì chỉ có sáu bit thấp nhất theo tứ tự của
+toán hạng bên phải được sử dụng như là khoảng cách dịch chuyển. Điều đó giống như là toán hạng bên phải 
+được sử dụng cho một toán tử luận lý thao tác bit AND & với giá trị che đậy 0x3f (0b111111). Khoảng cách 
+dịch chuyển thực ra luôn nằm trong khoảng từ 0 tới 63.
+Có phần nói về Right-Shifted rất hay. 
